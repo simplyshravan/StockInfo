@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="@dimen/activity_horizontal_margin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_symbol"
+        android:id="@+id/stockSymbolTextView"
+
+        android:textColor="@color/black"
+        android:textIsSelectable="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+        android:text="@string/get_stock_quote"
+        android:id="@+id/stockQouteButton" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_website"
+        android:id="@+id/qouteFromWebButton" />
+</TableRow>

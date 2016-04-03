@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablerow1">
+        <TextView
+            android:text="companyName"
+            android:id="@+id/companyNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablerow2">
+    <TextView
+    android:text="Year Low"
+    android:id="@+id/yearLow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_weight="1"
+    />
+        <TextView
+            android:text="Year High"
+            android:id="@+id/yearHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+</TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablerow3">
+        <TextView
+            android:text="Days Low"
+            android:id="@+id/daysLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:text="Days High"
+            android:id="@+id/daysHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablerow4">
+        <TextView
+            android:text="Last Price"
+            android:id="@+id/lastPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:text="Change"
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablerow5">
+        <TextView
+            android:text="Daily Price Range"
+            android:id="@+id/dailyPriceRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+</TableLayout>
